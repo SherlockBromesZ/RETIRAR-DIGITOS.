@@ -4,8 +4,8 @@ O código usa o operador módulo (%) para isolar o último dígito e a divisão 
 
 **Exemplo:**
 
-1. `numero = 350`
-2. `digito_retirado = 350 % 10 = 0` (resto da divisão por 10)
-3. `cout << 0` (imprime o dígito 0)
+1. `numero = 350;`
+2. `digito_retirado = 350 % 10 = 0;` (resto da divisão por 10)
+3. `cout << digito_retirado << endl;` (imprime o dígito 0)
 
 Para obter os demais dígitos, você pode repetir o processo após dividir `numero` por 10 dentro de um loop. 
